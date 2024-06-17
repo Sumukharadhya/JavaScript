@@ -16,5 +16,19 @@ map.set("IN","INDIA")
 map.set("USA","UNITED STATES OF AMERICA")
 map.set("FR","FRANCE")
 
-console.log(map);
+// console.log(map);
+
+for (const [key, value] of map) {
+    // console.log(key, ':-', value);
+
+}
+
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
+for (const[key, value] of map) {
+console.log(key,':-', value);
+}
 
